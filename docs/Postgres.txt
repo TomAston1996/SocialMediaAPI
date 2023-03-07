@@ -1,0 +1,5 @@
+Primary Key: Has to be unique, doesn't have to be ID could be an email for example
+
+Optional Column Constraints:
+- unique
+- not null (cannot be blank)

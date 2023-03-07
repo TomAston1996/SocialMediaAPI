@@ -1,0 +1,24 @@
+Querying Database: 
+- SELECT * FROM table_name 
+- SELECT id, name, price FROM table_name
+- WHERE price > 20 AND/OR price > 5;
+- ORDER BY price DESC, id ASC
+- LIMIT 10 (only top 10)
+- OFFSET 2 (skip first 2 rows)
+
+Creating New Row:
+#Add single row 
+INSERT INTO table_name (column1, column2, ...) VALUES (val1, val2, ...);
+#Add multiple rows
+INSERT INTO table_name (column1, column2, ...) VALUES (val1, val2, ...), (val3, val4,...);
+
+Deleting Rows: 
+DELETE FROM table_name WHERE id = 10;
+
+Updating Rows:
+UPDATE table_name SET column1= val1, column2 = val2 WHERE id = 2;
+
+RETURNING * (adding this to end of statement return the data to the user)
+
+Change Password: 
+ALTER USER postgres WITH PASSWORD 'password123'; #chnaged password to password123

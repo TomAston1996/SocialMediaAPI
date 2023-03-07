@@ -1,0 +1,9 @@
+Create: POST - /posts (create single post)
+Read: GET - /posts/:id (read single or multiple), /posts (read all)
+Update: PUT/PATCH - /posts/:id (update single post)
+Delete: DELETE - /posts/:id (delete single post)
+
+
+PUT vs PATCH:
+PUT - Update all fields
+PATCH - Update a specific field

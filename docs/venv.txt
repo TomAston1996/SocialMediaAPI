@@ -1,0 +1,10 @@
+Create a virtual environment in your directory by running following in terminal: 
+py -3 -m venv venv
+
+Change interpretor to venv: 
+View --> Command Pallete --> Python: Select Interpretor --> .venv\Scripts\python.exe
+
+Ensure terminal is using venv by running the following in command line:
+venv\Scripts\activate.bat 
+
+pip install all dependencies into venv
